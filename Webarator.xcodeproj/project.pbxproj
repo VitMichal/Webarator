@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58223F8E1C2E050A00232085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58223F8D1C2E050A00232085 /* AppDelegate.swift */; };
+		58223F901C2E050A00232085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58223F8F1C2E050A00232085 /* ViewController.swift */; };
+		58223F931C2E050A00232085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58223F911C2E050A00232085 /* Main.storyboard */; };
+		58223F951C2E050A00232085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58223F941C2E050A00232085 /* Assets.xcassets */; };
+		58223F981C2E050A00232085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58223F961C2E050A00232085 /* LaunchScreen.storyboard */; };
+		58223FA31C2E050A00232085 /* WebaratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58223FA21C2E050A00232085 /* WebaratorTests.swift */; };
+		58223FAE1C2E050A00232085 /* WebaratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58223FAD1C2E050A00232085 /* WebaratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58223F9F1C2E050A00232085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58223F821C2E050A00232085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58223F891C2E050A00232085;
+			remoteInfo = Webarator;
+		};
+		58223FAA1C2E050A00232085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58223F821C2E050A00232085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58223F891C2E050A00232085;
+			remoteInfo = Webarator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58223F8A1C2E050A00232085 /* Webarator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webarator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58223F8D1C2E050A00232085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58223F8F1C2E050A00232085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58223F921C2E050A00232085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58223F941C2E050A00232085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58223F971C2E050A00232085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58223F991C2E050A00232085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58223F9E1C2E050A00232085 /* WebaratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebaratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58223FA21C2E050A00232085 /* WebaratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebaratorTests.swift; sourceTree = "<group>"; };
+		58223FA41C2E050A00232085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58223FA91C2E050A00232085 /* WebaratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebaratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58223FAD1C2E050A00232085 /* WebaratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebaratorUITests.swift; sourceTree = "<group>"; };
+		58223FAF1C2E050A00232085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58223F871C2E050A00232085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58223F9B1C2E050A00232085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58223FA61C2E050A00232085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58223F811C2E050A00232085 = {
+			isa = PBXGroup;
+			children = (
+				58223F8C1C2E050A00232085 /* Webarator */,
+				58223FA11C2E050A00232085 /* WebaratorTests */,
+				58223FAC1C2E050A00232085 /* WebaratorUITests */,
+				58223F8B1C2E050A00232085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58223F8B1C2E050A00232085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58223F8A1C2E050A00232085 /* Webarator.app */,
+				58223F9E1C2E050A00232085 /* WebaratorTests.xctest */,
+				58223FA91C2E050A00232085 /* WebaratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58223F8C1C2E050A00232085 /* Webarator */ = {
+			isa = PBXGroup;
+			children = (
+				58223F8D1C2E050A00232085 /* AppDelegate.swift */,
+				58223F8F1C2E050A00232085 /* ViewController.swift */,
+				58223F911C2E050A00232085 /* Main.storyboard */,
+				58223F941C2E050A00232085 /* Assets.xcassets */,
+				58223F961C2E050A00232085 /* LaunchScreen.storyboard */,
+				58223F991C2E050A00232085 /* Info.plist */,
+			);
+			path = Webarator;
+			sourceTree = "<group>";
+		};
+		58223FA11C2E050A00232085 /* WebaratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				58223FA21C2E050A00232085 /* WebaratorTests.swift */,
+				58223FA41C2E050A00232085 /* Info.plist */,
+			);
+			path = WebaratorTests;
+			sourceTree = "<group>";
+		};
+		58223FAC1C2E050A00232085 /* WebaratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58223FAD1C2E050A00232085 /* WebaratorUITests.swift */,
+				58223FAF1C2E050A00232085 /* Info.plist */,
+			);
+			path = WebaratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58223F891C2E050A00232085 /* Webarator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58223FB21C2E050A00232085 /* Build configuration list for PBXNativeTarget "Webarator" */;
+			buildPhases = (
+				58223F861C2E050A00232085 /* Sources */,
+				58223F871C2E050A00232085 /* Frameworks */,
+				58223F881C2E050A00232085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Webarator;
+			productName = Webarator;
+			productReference = 58223F8A1C2E050A00232085 /* Webarator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58223F9D1C2E050A00232085 /* WebaratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58223FB51C2E050A00232085 /* Build configuration list for PBXNativeTarget "WebaratorTests" */;
+			buildPhases = (
+				58223F9A1C2E050A00232085 /* Sources */,
+				58223F9B1C2E050A00232085 /* Frameworks */,
+				58223F9C1C2E050A00232085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58223FA01C2E050A00232085 /* PBXTargetDependency */,
+			);
+			name = WebaratorTests;
+			productName = WebaratorTests;
+			productReference = 58223F9E1C2E050A00232085 /* WebaratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58223FA81C2E050A00232085 /* WebaratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58223FB81C2E050A00232085 /* Build configuration list for PBXNativeTarget "WebaratorUITests" */;
+			buildPhases = (
+				58223FA51C2E050A00232085 /* Sources */,
+				58223FA61C2E050A00232085 /* Frameworks */,
+				58223FA71C2E050A00232085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58223FAB1C2E050A00232085 /* PBXTargetDependency */,
+			);
+			name = WebaratorUITests;
+			productName = WebaratorUITests;
+			productReference = 58223FA91C2E050A00232085 /* WebaratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58223F821C2E050A00232085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vít Míchal";
+				TargetAttributes = {
+					58223F891C2E050A00232085 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X384MGWFM2;
+					};
+					58223F9D1C2E050A00232085 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X384MGWFM2;
+						TestTargetID = 58223F891C2E050A00232085;
+					};
+					58223FA81C2E050A00232085 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X384MGWFM2;
+						TestTargetID = 58223F891C2E050A00232085;
+					};
+				};
+			};
+			buildConfigurationList = 58223F851C2E050A00232085 /* Build configuration list for PBXProject "Webarator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58223F811C2E050A00232085;
+			productRefGroup = 58223F8B1C2E050A00232085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58223F891C2E050A00232085 /* Webarator */,
+				58223F9D1C2E050A00232085 /* WebaratorTests */,
+				58223FA81C2E050A00232085 /* WebaratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58223F881C2E050A00232085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58223F981C2E050A00232085 /* LaunchScreen.storyboard in Resources */,
+				58223F951C2E050A00232085 /* Assets.xcassets in Resources */,
+				58223F931C2E050A00232085 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58223F9C1C2E050A00232085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58223FA71C2E050A00232085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58223F861C2E050A00232085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58223F901C2E050A00232085 /* ViewController.swift in Sources */,
+				58223F8E1C2E050A00232085 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58223F9A1C2E050A00232085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58223FA31C2E050A00232085 /* WebaratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58223FA51C2E050A00232085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58223FAE1C2E050A00232085 /* WebaratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58223FA01C2E050A00232085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58223F891C2E050A00232085 /* Webarator */;
+			targetProxy = 58223F9F1C2E050A00232085 /* PBXContainerItemProxy */;
+		};
+		58223FAB1C2E050A00232085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58223F891C2E050A00232085 /* Webarator */;
+			targetProxy = 58223FAA1C2E050A00232085 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58223F911C2E050A00232085 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58223F921C2E050A00232085 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58223F961C2E050A00232085 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58223F971C2E050A00232085 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58223FB01C2E050A00232085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58223FB11C2E050A00232085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58223FB31C2E050A00232085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Webarator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.VitMichal.Webarator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58223FB41C2E050A00232085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Webarator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.VitMichal.Webarator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58223FB61C2E050A00232085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebaratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.VitMichal.WebaratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Webarator.app/Webarator";
+			};
+			name = Debug;
+		};
+		58223FB71C2E050A00232085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WebaratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.VitMichal.WebaratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Webarator.app/Webarator";
+			};
+			name = Release;
+		};
+		58223FB91C2E050A00232085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WebaratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.VitMichal.WebaratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Webarator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		58223FBA1C2E050A00232085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WebaratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.VitMichal.WebaratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Webarator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58223F851C2E050A00232085 /* Build configuration list for PBXProject "Webarator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58223FB01C2E050A00232085 /* Debug */,
+				58223FB11C2E050A00232085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58223FB21C2E050A00232085 /* Build configuration list for PBXNativeTarget "Webarator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58223FB31C2E050A00232085 /* Debug */,
+				58223FB41C2E050A00232085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58223FB51C2E050A00232085 /* Build configuration list for PBXNativeTarget "WebaratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58223FB61C2E050A00232085 /* Debug */,
+				58223FB71C2E050A00232085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58223FB81C2E050A00232085 /* Build configuration list for PBXNativeTarget "WebaratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58223FB91C2E050A00232085 /* Debug */,
+				58223FBA1C2E050A00232085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58223F821C2E050A00232085 /* Project object */;
+}
