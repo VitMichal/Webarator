@@ -1,0 +1,3 @@
+# Webarator
+
+iOS App which will strip webpage to content, detects its language and read it loud ...
